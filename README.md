@@ -8,4 +8,5 @@ Uses back-propagating artificial neural networks (ANNs) and historic stock marke
 
 ## Data Format
 |Date|Time|Open|High|Low|Close|Volume|
+| ------------- |:-------------:| -----:|| -----:|| -----:|| -----:|| -----:|
 |19991118|0|42.2076|46.382|37.4581|39.1928|43981812.87|
