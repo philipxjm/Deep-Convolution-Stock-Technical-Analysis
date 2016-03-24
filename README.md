@@ -3,4 +3,5 @@ Uses back-propagating artificial neural networks (ANNs) and historic stock marke
 
 ## Materials for Consideration
 <https://quantquote.com/historical-stock-data>
+
 <http://www.cs.berkeley.edu/~akar/IITK_website/EE671/report_stock.pdf>
