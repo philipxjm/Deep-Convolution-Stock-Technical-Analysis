@@ -5,3 +5,6 @@ Uses back-propagating artificial neural networks (ANNs) and historic stock marke
 <https://quantquote.com/historical-stock-data>
 
 <http://www.cs.berkeley.edu/~akar/IITK_website/EE671/report_stock.pdf>
+
+## Data Format
+Date, Time, Open, High, Low, Close, Volume
