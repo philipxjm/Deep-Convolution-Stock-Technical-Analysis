@@ -8,7 +8,6 @@ import math
 import random
 import numpy as np
 import csv
-import binascii
 import time
 import sys
 from progressbar import Bar, Percentage, ProgressBar, SimpleProgress
