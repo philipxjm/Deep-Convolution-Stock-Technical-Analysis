@@ -53,6 +53,9 @@ The trained model is proprietary, but you are absolutely welcome to train your o
 You must have python 3.5+ and tensorflow installed, tensorflow-gpu highly recommended as the training requires a lot of computational power.
 
 ```pip install tensorflow-gpu```
+
 ```git clone https://github.com/philipxjm/Neural-Stock-Market-Prediction.git```
+
 ```cd Neural-Stock-Market-Prediction```
+
 ```python stock-model.py```
