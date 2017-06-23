@@ -34,9 +34,9 @@ Also, the input images is in the shape ```[batch_size, 128, 5]```, the moving-wi
 After several convolutional layers and batchnorms later, we arrive at a tensor sized ```[batch_size, 2, 1024]```, which we then run through several softmax layers and finally a sigmoid activation to result in a tensor sized ```[batch_size, 2]```, with two values, one representing the bullish confidence, and the other one the bearish confidence.
 
 ## Materials for Consideration
-<https://quantquote.com/historical-stock-data>
-<http://www.investopedia.com/terms/t/technicalanalysis.asp>
-<http://www.cs.berkeley.edu/~akar/IITK_website/EE671/report_stock.pdf>
+|Historical Data|<https://quantquote.com/historical-stock-data>|
+|Description of Technical Analysis|<http://www.investopedia.com/terms/t/technicalanalysis.asp>|
+|Berkeley paper on ANN-based analysis|<http://www.cs.berkeley.edu/~akar/IITK_website/EE671/report_stock.pdf>|
 
 ## Data Format
 
@@ -45,3 +45,14 @@ After several convolutional layers and batchnorms later, we arrive at a tensor s
 |Date|Time|Open|High|Low|Close|Volume|
 |---|---|---|---|---|---|---|
 |19991118|0|42.2076|46.382|37.4581|39.1928|43981812.87|
+
+## Usage
+
+The trained model is proprietary, but you are absolutely welcome to train your own using my code.
+
+You must have python 3.5+ and tensorflow installed, tensorflow-gpu highly recommended as the training requires a lot of computational power.
+
+```pip install tensorflow-gpu```
+```git clone https://github.com/philipxjm/Neural-Stock-Market-Prediction.git```
+```cd Neural-Stock-Market-Prediction```
+```python stock-model.py```
