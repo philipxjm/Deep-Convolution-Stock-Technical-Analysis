@@ -34,6 +34,8 @@ Also, the input images is in the shape ```[batch_size, 128, 5]```, the moving-wi
 After several convolutional layers and batchnorms later, we arrive at a tensor sized ```[batch_size, 2, 1024]```, which we then run through several softmax layers and finally a sigmoid activation to result in a tensor sized ```[batch_size, 2]```, with two values, one representing the bullish confidence, and the other one the bearish confidence.
 
 ## Materials for Consideration
+|Name|Link|
+|---|---|
 |Historical Data|<https://quantquote.com/historical-stock-data>|
 |Description of Technical Analysis|<http://www.investopedia.com/terms/t/technicalanalysis.asp>|
 |Berkeley paper on ANN-based analysis|<http://www.cs.berkeley.edu/~akar/IITK_website/EE671/report_stock.pdf>|
