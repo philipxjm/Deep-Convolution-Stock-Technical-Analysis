@@ -60,4 +60,6 @@ You must have python 3.5+ and tensorflow installed, tensorflow-gpu highly recomm
 
 ```cd Neural-Stock-Market-Prediction```
 
-```python stock-model.py```
+```python stock_model.py```
+
+Of course, you have to tinker with the hyper parameters, archeteture of the encoder, and the dataset setup if you want to achieve good results. Good luck and make some money.
