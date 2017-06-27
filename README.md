@@ -58,9 +58,9 @@ You must have python 3.5+ and tensorflow installed, tensorflow-gpu highly recomm
 
 ```pip install tensorflow-gpu```
 
-```git clone https://github.com/philipxjm/Neural-Stock-Market-Prediction.git```
+```git clone https://github.com/philipxjm/Convolutional-Neural-Stock-Market-Technical-Analyser.git```
 
-```cd Neural-Stock-Market-Prediction```
+```cd Convolutional-Neural-Stock-Market-Technical-Analyser```
 
 ```python stock_model.py```
 
