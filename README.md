@@ -8,6 +8,8 @@ Convolutional neural networks are designed to recognize complex patterns and fea
 
 OK, that's great, but how does this tie in to stock analysis? Here we introduce the study of technical analysis. I'll let Investopedia's words describe it: "Technical analysis is a trading tool employed to evaluate securities and attempt to forecast their future movement by analyzing statistics gathered from trading activity, such as price movement and volume. Unlike fundamental analysts who attempt to evaluate a security's intrinsic value, technical analysts focus on charts of price movement and various analytical tools to evaluate a security's strength or weakness and forecast future price changes." In other words, technical analysis focuses on the movement patterns and trading behaviors of stock selections to pinpoint a stock's future trend. Wait a minute, if technical analysis works by analysing the movement patterns of stocks, we can use CNN to model this analytical technique!
 
+For example, we would have some filters that are sensitive to shortterm uptrends, and they will be combined by fully connected layers to be sensitive to longterm uptrends. The same goes for some complex patterns such as shortterm floats, or an overall downward trend capture.
+
 As previously mentioned, CNN works by stacking several filters on top of each other to form complex feature-sensitive filters; if we were to treat stock data as images, we can apply CNN to it and extract useful and deep information. How do we go about this?
 
 Instead of convolving a 2D image, we convolved a 1D image, since stock data is linear and is represented as an 1D tensor.
