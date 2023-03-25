@@ -10,6 +10,8 @@ import csv
 import os
 np.set_printoptions(threshold=np.nan)
 
+
+''' Dataset class for loading data into the model'''
 class DataSet(object):
   def __init__(self,
                images,
