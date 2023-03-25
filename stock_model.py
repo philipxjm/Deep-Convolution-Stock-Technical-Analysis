@@ -7,6 +7,8 @@ import functools
 from ops import *
 from loader import *
 
+
+# def conv1d(input_, output_dim, k_h=5, k_w=5, d_h=2, d_w=2, stddev=0.02, name="conv2d"):
 def doublewrap(function):
   @functools.wraps(function)
   def decorator(*args, **kwargs):
