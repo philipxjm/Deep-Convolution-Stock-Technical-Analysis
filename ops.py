@@ -16,8 +16,6 @@ except:
   merge_summary = tf.summary.merge
   SummaryWriter = tf.summary.FileWriter
 
-
-# a comment here
 def conv1d(input, output_dim,
            conv_w=9, conv_s=2,
            padding="SAME", name="conv1d",
